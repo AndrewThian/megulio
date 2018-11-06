@@ -1,7 +1,7 @@
 {
   "name": "megulio",
   "version": "1.0.0",
-  "description": "megu's folio",
+  "description": "A secret project regarding megu's lio",
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
@@ -14,8 +14,14 @@
     "url": "git@github.com:AndrewThian/megulio.git"
   },
   "dependencies": {
+    "@babel/core": "^7.0.0",
+    "babel-plugin-styled-components": "^1.8.0",
     "gatsby": "^2.0.33",
+    "gatsby-plugin-styled-components": "^3.0.1",
+    "gatsby-plugin-typescript": "^2.0.0-rc.6",
     "react": "^16.5.1",
-    "react-dom": "^16.5.1"
+    "react-dom": "^16.5.1",
+    "styled-components": "^4.0.3",
+    "typescript": "^3.1.6"
   }
 }
